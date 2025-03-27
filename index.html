@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>raidenprjkts | homepage</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="logo-card">
+          <div class="logo">
+            <img src="img/logo.png" alt="Logo">
+            <div class="logo-text">raidenprjkts.</div>
+          </div>
+          <div class="menu-icon" onclick="openPopup()">
+            <img src="img/menu.png" alt="Menu">
+          </div>
+      </header>
+      <div id="popup" class="popup">
+        <div class="popup-content">
+          <span class="close" onclick="closePopup()">&times;</span>
+          <p>This function is not yet available on this version of the website. It will be included in a future update.</p>
+        </div>
+      </div>
+      <section class="hero">
+        <div id="bg-wrap">
+          <svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice">
+            <defs>
+              <radialGradient id="Gradient1" cx="50%" cy="50%" fx="0.441602%" fy="50%" r=".5"><animate attributeName="fx" dur="34s" values="0%;3%;0%" repeatCount="indefinite"></animate><stop offset="0%" stop-color="rgba(255, 0, 255, 1)"></stop><stop offset="100%" stop-color="rgba(255, 0, 255, 0)"></stop></radialGradient>
+              <radialGradient id="Gradient2" cx="50%" cy="50%" fx="2.68147%" fy="50%" r=".5">
+                <animate attributeName="fx" dur="23.5s" values="0%;3%;0%" repeatCount="indefinite"></animate>
+                <stop offset="0%" stop-color="rgba(255, 105, 180, 1)"></stop>
+                <stop offset="100%" stop-color="rgba(255, 105, 180, 0)"></stop>
+              </radialGradient>
+              <radialGradient id="Gradient3" cx="50%" cy="50%" fx="0.836536%" fy="50%" r=".5"><animate attributeName="fx" dur="21.5s" values="0%;3%;0%" repeatCount="indefinite"></animate><stop offset="0%" stop-color="rgba(0, 255, 255, 1)"></stop><stop offset="100%" stop-color="rgba(0, 255, 255, 0)"></stop></radialGradient>
+              <radialGradient id="Gradient4" cx="50%" cy="50%" fx="4.56417%" fy="50%" r=".5"><animate attributeName="fx" dur="23s" values="0%;5%;0%" repeatCount="indefinite"></animate><stop offset="0%" stop-color="rgba(0, 255, 0, 1)"></stop><stop offset="100%" stop-color="rgba(0, 255, 0, 0)"></stop></radialGradient>
+              <radialGradient id="Gradient5" cx="50%" cy="50%" fx="2.65405%" fy="50%" r=".5"><animate attributeName="fx" dur="24.5s" values="0%;5%;0%" repeatCount="indefinite"></animate><stop offset="0%" stop-color="rgba(0,0,255, 1)"></stop><stop offset="100%" stop-color="rgba(0,0,255, 0)"></stop></radialGradient>
+              <radialGradient id="Gradient6" cx="50%" cy="50%" fx="0.981338%" fy="50%" r=".5"><animate attributeName="fx" dur="25.5s" values="0%;5%;0%" repeatCount="indefinite"></animate><stop offset="0%" stop-color="rgba(255,0,0, 1)"></stop><stop offset="100%" stop-color="rgba(255,0,0, 0)"></stop></radialGradient>
+            </defs>
+            <rect x="0" y="0" width="100%" height="100%" fill="url(#Gradient5)">
+              <animate attributeName="x" dur="23s" values="0%;-25%;0%" repeatCount="indefinite" />
+              <animate attributeName="y" dur="24s" values="25%;-25%;25%" repeatCount="indefinite" />
+              <animateTransform attributeName="transform" type="rotate" from="0 50 50" to="360 50 50" dur="18s" repeatCount="indefinite"/>
+            </rect>
+            <rect x="0" y="0" width="100%" height="100%" fill="url(#Gradient6)">
+              <animate attributeName="x" dur="25s" values="-25%;0%;-25%" repeatCount="indefinite" />
+              <animate attributeName="y" dur="26s" values="0%;-25%;0%" repeatCount="indefinite" />
+              <animateTransform attributeName="transform" type="rotate" from="360 50 50" to="0 50 50" dur="19s" repeatCount="indefinite"/>
+            </rect>
+            <rect x="13.744%" y="1.18473%" width="100%" height="100%" fill="url(#Gradient1)" transform="rotate(334.41 50 50)"><animate attributeName="x" dur="20s" values="25%;0%;25%" repeatCount="indefinite"></animate><animate attributeName="y" dur="21s" values="0%;25%;0%" repeatCount="indefinite"></animate><animateTransform attributeName="transform" type="rotate" from="0 50 50" to="360 50 50" dur="7s" repeatCount="indefinite"></animateTransform></rect>
+            <rect x="-2.17916%" y="35.4267%" width="100%" height="100%" fill="url(#Gradient2)" transform="rotate(255.072 50 50)"><animate attributeName="x" dur="23s" values="-25%;0%;-25%" repeatCount="indefinite"></animate><animate attributeName="y" dur="24s" values="0%;50%;0%" repeatCount="indefinite"></animate><animateTransform attributeName="transform" type="rotate" from="0 50 50" to="360 50 50" dur="12s" repeatCount="indefinite"></animateTransform>
+            </rect>
+            <rect x="9.00483%" y="14.5733%" width="100%" height="100%" fill="url(#Gradient3)" transform="rotate(139.903 50 50)"><animate attributeName="x" dur="25s" values="0%;25%;0%" repeatCount="indefinite"></animate><animate attributeName="y" dur="12s" values="0%;25%;0%" repeatCount="indefinite"></animate><animateTransform attributeName="transform" type="rotate" from="360 50 50" to="0 50 50" dur="9s" repeatCount="indefinite"></animateTransform>
+            </rect>
+          </svg>          
+        </div>
+        <div class="card">
+          <h1>Welcome to raidenprjkts home page!</h1>
+          <p>Here you will find everything you need.</p>
+          <div class="buttons">
+            <a href="https://www.pling.com/p/1597979" class="button"><img class="icon" src="img/web.png" alt="web_icon1"> raidenTweaks</a>
+            <a href="https://www.pling.com/p/1996119/" class="button"><img class="icon" src="img/web.png" alt="web_icon2"> iKCAL</a>
+            <a href="#" class="button" onclick="openSourcesPopup()"><img class="icon" src="img/github.png" alt="github_icon1"> Sources</a>
+            <a href="https://t.me/raidenprjkts" class="button"><img class="icon" src="img/telegram.png" alt="telegram_icon1"> Telegram Channel</a>
+            <a href="https://t.me/raidenprjktsgroup" class="button"><img class="icon" src="img/telegram.png" alt="telegram_icon1"> Telegram Group</a>
+          </div>
+        </div>  
+      </section>
+      <footer>
+        <p>&copy; 2024 raidenprjkts. All rights reserved.</p>
+      </footer>
+      <div id="sources-popup" class="popup">
+        <div class="popup-content">
+          <span class="close" onclick="closeSourcesPopup()">&times;</span>
+          <p>Choose which source you want to see:</p>
+          <div class="buttons">
+            <a href="https://github.com/raidenkkj/raidenTweaks" class="button"><img class="icon" src="img/github.png" alt="github_icon2"> raidenTweaks</a>
+            <a href="https://github.com/raidenkkj/iKCAL" class="button"><img class="icon" src="img/github.png" alt="github_icon3"> iKCAL</a>
+          </div>
+        </div>
+      </div>
+      <script src="js/script.js"></script>
+  </body>
+</html>
