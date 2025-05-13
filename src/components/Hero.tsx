@@ -8,7 +8,7 @@ const Hero: React.FC = () => {
           Welcome to raidenprjkts
         </h1>
         <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto mb-10">
-          Your central hub for innovative mobile tweaks and tools. Discover our projects and join our community.
+          Your central hub for innovative mobile tweaks, tools and custom ROMs. Discover our projects and join our community.
         </p>
         <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4">
           <a 

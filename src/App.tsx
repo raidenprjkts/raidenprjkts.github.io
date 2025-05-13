@@ -114,7 +114,7 @@ function App() {
             Access our project source code on GitHub:
           </p>
           <a
-            href="https://github.com/raidenkk/raidenTweaks"
+            href="https://github.com/raidenkkj/raidenTweaks"
             className="flex items-center p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors"
             target="_blank"
             rel="noreferrer"
@@ -123,12 +123,12 @@ function App() {
             <div>
               <h4 className="text-lg font-medium">raidenTweaks</h4>
               <p className="text-sm text-gray-500">
-                Mobile tweaks and modifications repository
+                A simple mobile kernel tweaker
               </p>
             </div>
           </a>
           <a
-            href="https://github.com/raidenkk/iKCAL"
+            href="https://github.com/raidenkkj/iKCAL"
             className="flex items-center p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors"
             target="_blank"
             rel="noreferrer"
