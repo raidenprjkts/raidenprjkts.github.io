@@ -25,13 +25,13 @@ function App() {
                 title="raidenTweaks"
                 description="An advanced kernel management solution offering customized performance profiles. Designed to enhance your mobile experience through intelligent system optimization."
                 icon={Zap}
-                href="#raidenTweaks"
+                onClick={() => window.open('https://www.pling.com/p/1597979', '_blank')}
               />
               <FeatureCard
                 title="iKCAL"
                 description="A sophisticated Magisk module for display calibration, offering carefully curated presets and custom options to achieve your perfect visual experience."
                 icon={Sliders}
-                href="#iKCAL"
+                onClick={() => window.open('https://www.pling.com/p/1996119/', '_blank')}
               />
               <FeatureCard
                 title="Sources"
@@ -82,7 +82,7 @@ function App() {
                 Telegram Channel
               </a>
               <a 
-                href="https://t.me/raidenprjktsGroup" 
+                href="https://t.me/raidenprjktsgroup" 
                 className="px-8 py-3 bg-white text-[#0088cc] border border-[#0088cc] font-medium rounded-full hover:bg-gray-50 transition-colors duration-300 flex items-center justify-center"
               >
                 <MessageCircle className="w-5 h-5 mr-2" />
@@ -106,7 +106,7 @@ function App() {
             Access our project source code on GitHub:
           </p>
           <a
-            href="https://github.com/raidenprjkts/raidenTweaks"
+            href="https://github.com/raidenkk/raidenTweaks"
             className="flex items-center p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors"
             target="_blank"
             rel="noreferrer"
@@ -120,7 +120,7 @@ function App() {
             </div>
           </a>
           <a
-            href="https://github.com/raidenprjkts/iKCAL"
+            href="https://github.com/raidenkk/iKCAL"
             className="flex items-center p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors"
             target="_blank"
             rel="noreferrer"
