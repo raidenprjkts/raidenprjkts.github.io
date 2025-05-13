@@ -28,7 +28,7 @@ function App() {
                 onClick={() => {
                     setTimeout(() => {
                         window.open('https://www.pling.com/p/1597979', '_blank');
-                    }, 500);
+                    }, 1500);
                 }}
               />
               <FeatureCard
@@ -38,7 +38,7 @@ function App() {
                 onClick={() => {
                     setTimeout(() => {
                         window.open('https://www.pling.com/p/1996119', '_blank');
-                    }, 500);
+                    }, 1500);
                 }}
               />
               <FeatureCard
