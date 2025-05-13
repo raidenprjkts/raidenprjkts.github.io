@@ -24,7 +24,11 @@ const Header: React.FC = () => {
     >
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <div className="flex items-center">
-          <Github className="w-6 h-6 mr-2" />
+          <img 
+            src="/logo.png" 
+            alt="raidenprjkts logo" 
+            className="w-9 h-9 mr-1 object-contain"
+          />
           <span className="text-xl font-medium">raidenprjkts</span>
         </div>
 
