@@ -25,13 +25,21 @@ function App() {
                 title="raidenTweaks"
                 description="An advanced kernel management solution offering customized performance profiles. Designed to enhance your mobile experience through intelligent system optimization."
                 icon={Zap}
-                onClick={() => window.open('https://www.pling.com/p/1597979', '_blank')}
+                onClick={() => {
+                    setTimeout(() => {
+                        window.open('https://www.pling.com/p/1597979', '_blank');
+                    }, 500);
+                }}
               />
               <FeatureCard
                 title="iKCAL"
                 description="A sophisticated Magisk module for display calibration, offering carefully curated presets and custom options to achieve your perfect visual experience."
                 icon={Sliders}
-                onClick={() => window.open('https://www.pling.com/p/1996119/', '_blank')}
+                onClick={() => {
+                    setTimeout(() => {
+                        window.open('https://www.pling.com/p/1996119', '_blank');
+                    }, 500);
+                }}
               />
               <FeatureCard
                 title="Sources"
